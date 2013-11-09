@@ -1,3 +1,4 @@
+The humbling learning experience
 1. Naive impl, loop thru local list of products
    controller, ng-repeat
 2. Modules, services, factory
@@ -7,9 +8,10 @@
    TemplateUrl el template
 4. Click handler, add to cart
     cart is a resource so we can share it between ctrls
-5. Proper add to cart, add/remove in cart -> refactor add-method to cart object
+5. Proper add to cart, add in multiple places -> refactor add-method to cart object
+6. Node express backend, templateUrl in routes
+7. Service, fetch from backend api
 
-// TODO form
-// TODO service + fetch
+// TODO checkout form
 // TODO directive for product
 

@@ -9,8 +9,8 @@
     <title></title>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width"/>
-    <link rel="stylesheet" href="../styles/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../static/styles/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../static/styles/main.css" />
 
 </head>
 <body ng-app>
@@ -23,7 +23,7 @@
             <ul id="products">
                 <li ng-repeat="product in products">
                     <div class="span4" class="fruitItem ">
-                        <div style="align:center;"><img src="../images/fruits/mini-{{product.imgSrc}}"/></div>
+                        <div style="align:center;"><img src="../static/images/fruits/mini-{{product.imgSrc}}"/></div>
                         <div><b>{{product.name}}</b></div>
                         <div>I lager: {{ product.inStock }}</div>
                         <div><a href="#/products/{{product.id}}">Visa produkt</a></div>

@@ -42,6 +42,7 @@ resources.factory("cart", ["products", function (products) {
         console.log("add to cart "+id);
         product = products[id];
         if (product.inStock < 1) {
+            console.log("out of " + product.name);
             return;
         }
         // update product count
@@ -70,6 +71,7 @@ resources.factory("cart", ["products", function (products) {
 
             product = products[itemId];
             product.inStock = product.inStock + 1;
+            console.log("remove from cart " + itemId);
         }
     }
     return  cart;

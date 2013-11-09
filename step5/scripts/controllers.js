@@ -12,7 +12,6 @@ controllers.controller("DetailsCtrl",
         $scope.addToCart = function (id) {
             cart.addToCart(id);
         }
-
     }
 ]);
 controllers.controller("CartCtrl",
